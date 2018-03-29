@@ -35,12 +35,14 @@ I am assuming here that you have a working CUDA/cudNN setup on your host OS, and
 1. Create (and activate) a new Anaconda environment.
 
 	- __Windows__ (to install __without__ GPU support, change `requirements/dog-windows-gpu-cntk.yml` to `requirements/dog-windows.yml`, replace `cntk` with `tf` to use tensorflow instead):  
+	
 	```
 	conda env create -n "[name]" -f requirements/dog-windows-gpu-cntk.yml
 	activate "[name]"
 	```
 
 	- __Linux__ (to install __without__ GPU support, change `requirements/dog-linux-gpu.yml` to `requirements/dog-linux.yml`): 
+	
 	```
 	conda env create -n "[name]" -f requirements/dog-linux-gpu.yml
 	source activate "[name]"
