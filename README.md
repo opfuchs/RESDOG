@@ -3,6 +3,8 @@
 v. 0.0.1
 Very much a work in progress!
 
+This project is derived from an assignment completed as part of the [Udacity Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101), in which we develop a dog breed classifier using transfer learning, starting with a pre-trained (on ImageNet) ResNet-50 and then modifying it for our task, re-training only the new fully-connected layer(s).
+
 ## Obtaining the data
 1. Download the dog image dataset from [here](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). Extract it in your repo/working directory such that there is now a directory `foo/dogImages`.
 
