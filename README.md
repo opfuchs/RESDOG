@@ -36,17 +36,17 @@ I am assuming here that you have a working CUDA/cudNN setup on your host OS, and
 
 	- __Windows__ (to install __without__ GPU support, change `requirements/dog-windows-gpu-cntk.yml` to `requirements/dog-windows.yml`, replace `cntk` with `tf` to use tensorflow instead):  
 	
-	```
-	conda env create -n "[name]" -f requirements/dog-windows-gpu-cntk.yml
-	activate "[name]"
-	```
+		```
+		conda env create -n "[name]" -f requirements/dog-windows-gpu-cntk.yml
+		activate "[name]"
+		```
 
 	- __Linux__ (to install __without__ GPU support, change `requirements/dog-linux-gpu.yml` to `requirements/dog-linux.yml`): 
 	
-	```
-	conda env create -n "[name]" -f requirements/dog-linux-gpu.yml
-	source activate "[name]"
-	```  
+		```
+		conda env create -n "[name]" -f requirements/dog-linux-gpu.yml
+		source activate "[name]"
+		```  
 	
 2. Install your preferred DL framework (Keras backend). Currently only CNTK and TensorFlow are explicitly supported.
 
