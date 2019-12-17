@@ -1,6 +1,6 @@
 # RESDOG: A transfer-learning based approach to dog breed identification using Keras/CNTK
 
-**Security Advisory: Please make sure to use the latest Tensorflow if opting for it instead of pure CNTK. The version that was a dependency at the time of publishing is affected by GHSA-844w-j86r-4x2j 
+**Security Advisory: Please make sure to use the latest Tensorflow if opting for it instead of pure CNTK. The version that was a dependency at the time of publishing is affected by GHSA-844w-j86r-4x2j** 
 
 v. 0.0.2
 Very much a work in progress!
