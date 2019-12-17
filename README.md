@@ -1,6 +1,8 @@
 # RESDOG: A transfer-learning based approach to dog breed identification using Keras/CNTK
 
-v. 0.0.1
+**Security Advisory: Please make sure to use the latest Tensorflow if opting for it instead of pure CNTK. The version that was a dependency at the time of publishing is affected by GHSA-844w-j86r-4x2j 
+
+v. 0.0.2
 Very much a work in progress!
 
 This project is derived from an assignment completed as part of the [Udacity Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101), in which we develop a dog breed classifier using transfer learning, starting with a pre-trained (on ImageNet) ResNet-50 and then modifying it for our task, re-training only the new fully-connected layer(s). You can find the original assignment [here](https://github.com/udacity/dog-project).
