@@ -2,7 +2,9 @@
 
 ## NOTE: This is a student project from years ago and SHOULD NOT BE USED IN PRODUCTION.
 
-This repository will remain public for archival reasons only. Technical fixes, including security fixes, will not be implemented. **Repeat: DO NOT USE IN PRODUCTION**
+This repository will remain public for archival reasons only. Technical fixes, including security fixes, will not be implemented. 
+
+**Repeat: DO NOT USE IN PRODUCTION**
 
 v. 0.0.3
 Very much a work in progress!
